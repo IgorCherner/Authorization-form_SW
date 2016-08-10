@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+input {
+  outline: none;
+}
+
+.form-block {
+	
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.form-block .logo {
+  text-align: center;
+  margin-bottom: 25px;
+  max-height: 55px;
+}
+.form-block .logo .circle {
+  
+  width: 55px;
+  height: 55px;
+  content: "";
+  display: block;
+  background: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: -8px;
+  margin-right: 5px;
+}
+.form-block .logo .text {
+  width: 155px;
+  display: inline-block;
+}
+.form-block .logo h1, .form-block .logo span {
+  letter-spacing: -.5px;
+  color: #014D8B;
+  display: block;
+}
+.form-block .logo h1 {
+  letter-spacing: -0.5px;
+  font: 32px/23px Open Sans;
+  font-weight: 900;
+}
+.form-block .logo span {
+  font: 19.5px/30px Open Sans;
+  font-weight: 600;
+}
+.form-block form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+          transition: 0.3s;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+}
+.form-block form #name, .form-block form #pass {
+  display: block;
+  margin: 10px 0;
+  margin-top: 5px;
+  width: 320px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+.form-block form input[type="button"] {
+  letter-spacing: 1px;
+  background: #ec008d;
+  border: 0;
+  padding: 10px 25px;
+  border-radius: 30px;
+  color: #fff;
+  font: 11px sans-serif;
+  text-transform: uppercase;
+  margin-top: 10px;
+  -webkit-transition: 0.3s;
+          transition: 0.3s;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.form-block form input[type="button"]:hover {
+  opacity: 1;
+}
+.form-block form p, .form-block form a {
+  color: #868686;
+  font: 12px sans-serif;
+  margin: 0;
+}
+.form-block form a {
+  float: right;
+  margin-top: 19px;
+  -webkit-transition: 0.3s;
+          transition: 0.3s;
+}
+.form-block form a:hover {
+  color: #0069E0;
+}
+.form-block .copyright {
+  display: block;
+  text-align: center;
+  margin-top: 18px;
+  font: 12px sans-serif;
+  color: #868686;
+}
+.form-block .copyright a {
+  color: #868686;
+  -webkit-transition: 0.3s;
+          transition: 0.3s;
+}
+.form-block .copyright a:hover {
+  color: #0069E0;
+}
+
